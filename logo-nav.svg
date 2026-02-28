@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" fill="none">
+  <!-- Small Crown -->
+  <g stroke="#c9a96e" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M60,45 L72,15 L84,32 L100,5 L116,32 L128,15 L140,45"/>
+    <line x1="60" y1="45" x2="140" y2="45"/>
+    <line x1="80" y1="45" x2="92" y2="28"/>
+    <line x1="92" y1="28" x2="100" y2="38"/>
+    <line x1="100" y1="38" x2="108" y2="28"/>
+    <line x1="108" y1="28" x2="120" y2="45"/>
+    <line x1="92" y1="28" x2="108" y2="28"/>
+    <line x1="100" y1="5" x2="100" y2="38"/>
+    <circle cx="72" cy="13" r="2.5" fill="#c9a96e"/>
+    <circle cx="100" cy="3" r="3" fill="#c9a96e"/>
+    <circle cx="128" cy="13" r="2.5" fill="#c9a96e"/>
+  </g>
+  
+  <!-- IMPERIUM PIĘKNA small -->
+  <text x="100" y="62" text-anchor="middle" font-family="'Cormorant Garamond', 'Georgia', serif" font-size="11" font-weight="500" letter-spacing="5" fill="#1a1a1a">IMPERIUM PIĘKNA</text>
+  
+  <!-- DaDi -->
+  <text x="100" y="85" text-anchor="middle" font-family="'Dancing Script', 'Brush Script MT', cursive" font-size="24" font-weight="500" fill="#c9a96e">DaDi</text>
+</svg>

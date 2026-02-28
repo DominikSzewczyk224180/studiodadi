@@ -14,7 +14,7 @@
   <div class="preloader">
     <div class="preloader-content">
       <div class="preloader-logo">
-        <img src="logo.png" alt="DaDi">
+        <img src="logo-white.svg" alt="DaDi">
       </div>
       <div class="preloader-text">Ładowanie...</div>
     </div>
@@ -26,7 +26,8 @@
   <!-- Navigation -->
   <nav class="navbar">
     <a href="#hero" class="nav-logo">
-      <img src="logo.png" alt="Studio DaDi Logo">
+      <img src="logo-nav.svg" alt="Studio DaDi" class="nav-logo-dark">
+      <img src="logo-nav.svg" alt="Studio DaDi" class="nav-logo-light">
     </a>
     <ul class="nav-links">
       <li><a href="#about">O nas</a></li>
@@ -62,20 +63,20 @@
     <div class="particles"></div>
     <div class="hero-content">
       <div class="hero-logo">
-        <img src="logo.png" alt="Studio DaDi Logo">
+        <img src="logo-white.svg" alt="Studio DaDi - Imperium Piękna">
       </div>
-      <div class="hero-subtitle-top">Imperium Piękna</div>
-      <h1 class="hero-title">
-        Studio
-        <span class="hero-title-script">DaDi</span>
-      </h1>
       <div class="hero-divider"></div>
-      <p class="hero-tagline">Z nami piękniej</p>
       <a href="#services" class="hero-btn">Poznaj nasze usługi</a>
     </div>
+    <!-- Scroll indicator - arrow pointing right/down -->
     <div class="scroll-indicator">
+      <div class="scroll-arrow">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"/>
+          <polyline points="12 5 19 12 12 19"/>
+        </svg>
+      </div>
       <span>Przewiń</span>
-      <div class="scroll-line"></div>
     </div>
   </section>
 
@@ -84,7 +85,18 @@
     <div class="about-grid">
       <div class="about-image-wrapper reveal">
         <div class="about-image">
-          <img src="img-paznokcie.png" alt="Studio DaDi - stylizacja paznokci">
+          <!-- Placeholder for owner photo -->
+          <div class="about-image-placeholder">
+            <div class="placeholder-icon">
+              <svg viewBox="0 0 80 80" fill="none" stroke="#c9a96e" stroke-width="1">
+                <circle cx="40" cy="28" r="14"/>
+                <path d="M12,72 C12,52 68,52 68,72"/>
+                <rect x="2" y="2" width="76" height="76" rx="4"/>
+              </svg>
+            </div>
+            <p class="placeholder-text">Twoje zdjęcie tutaj</p>
+            <span class="placeholder-hint">Dodaj zdjęcie właścicielki</span>
+          </div>
         </div>
         <div class="about-badge">
           <div class="about-badge-content">
@@ -213,7 +225,6 @@
         <img src="img-rzesy.png" alt="Lifting rzęs - efekt przed i po">
         <div class="gallery-overlay">
           <div class="gallery-overlay-content">
-            <div class="gallery-overlay-icon">✨</div>
             <div class="gallery-overlay-text">Lifting rzęs</div>
           </div>
         </div>
@@ -222,7 +233,6 @@
         <img src="img-brwi.png" alt="Laminacja brwi - efekt przed i po">
         <div class="gallery-overlay">
           <div class="gallery-overlay-content">
-            <div class="gallery-overlay-icon">✨</div>
             <div class="gallery-overlay-text">Laminacja brwi</div>
           </div>
         </div>
@@ -231,7 +241,6 @@
         <img src="img-paznokcie.png" alt="Stylizacja paznokci">
         <div class="gallery-overlay">
           <div class="gallery-overlay-content">
-            <div class="gallery-overlay-icon">✨</div>
             <div class="gallery-overlay-text">Stylizacja paznokci</div>
           </div>
         </div>
@@ -325,7 +334,7 @@
           <li>Laminacja brwi</li>
         </ul>
         <a href="https://www.facebook.com/xstrefa.pieknax" target="_blank" rel="noopener" class="fb-follow-btn">
-          <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" fill="white"/></svg>
           Obserwuj na Facebooku
         </a>
       </div>
@@ -403,9 +412,10 @@
   <footer class="footer">
     <div class="footer-top">
       <div class="footer-brand">
-        <div class="footer-logo">Studio <span>DaDi</span></div>
-        <div class="footer-tagline">Imperium Piękna · Z nami piękniej</div>
-        <div class="footer-social">
+        <div class="footer-logo-img">
+          <img src="logo-white.svg" alt="Studio DaDi" style="height:80px;">
+        </div>
+        <div class="footer-social" style="margin-top:20px;">
           <a href="https://www.facebook.com/xstrefa.pieknax" target="_blank" rel="noopener" aria-label="Facebook">
             <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
           </a>
