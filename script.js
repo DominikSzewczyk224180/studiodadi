@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   function animC(){if(done)return;counters.forEach(c=>{const t=parseInt(c.dataset.target),s=c.dataset.suffix||'',st=t/(2000/16);let v=0;const tm=setInterval(()=>{v+=st;if(v>=t){v=t;clearInterval(tm)}c.textContent=Math.floor(v)+s},16)});done=true}
   const ab=document.querySelector('.about');if(ab)new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting)animC()})},{threshold:.3}).observe(ab);
   const hc=document.querySelector('.hero-content');
-  window.addEventListener('scroll',()=>{const s=window.pageYOffset;if(s<window.innerHeight){hc.style.transform=`translateY(${s*.3}px)`;hc.style.opacity=1-(s/window.innerHeight)*.8}});
+  if(hc){window.addEventListener('scroll',()=>{const s=window.pageYOffset;if(s<window.innerHeight){hc.style.opacity=1-(s/window.innerHeight)*.6}})};
   const bt=document.querySelector('.footer-back-top');if(bt)bt.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
   const days=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'],today=days[new Date().getDay()];
   document.querySelectorAll('.hours-item').forEach(item=>{if(item.dataset.day===today){item.style.background='rgba(201,169,110,0.06)';item.style.padding='10px 8px';item.style.borderRadius='4px';const t=item.querySelector('.hours-time');if(t)t.classList.add('today')}});
