@@ -3,32 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Studio DaDi - Imperium Piękna. Salon kosmetyczny w Rydułtowach. Stylizacja paznokci, pedicure podologiczny, lifting rzęs, laminacja brwi.">
+  <meta name="description" content="Studio DaDi - Imperium Piękna. Salon kosmetyczny w Rydułtowach.">
   <title>Studio DaDi — Imperium Piękna | Salon Kosmetyczny Rydułtowy</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
 </head>
 <body>
-
-  <!-- Preloader -->
-  <div class="preloader">
-    <div class="preloader-content">
-      <div class="preloader-logo">
-        <img src="logo-white.svg" alt="DaDi">
-      </div>
-      <div class="preloader-text">Ładowanie...</div>
-    </div>
-  </div>
-
-  <!-- Facebook SDK -->
+  <div class="preloader"><div class="preloader-content"><div class="preloader-logo"><img src="logo-white.svg" alt="DaDi"></div><div class="preloader-text">Ładowanie...</div></div></div>
   <div id="fb-root"></div>
 
-  <!-- Navigation -->
   <nav class="navbar">
-    <a href="#hero" class="nav-logo">
-      <img src="logo-nav.svg" alt="Studio DaDi" class="nav-logo-dark">
-      <img src="logo-nav.svg" alt="Studio DaDi" class="nav-logo-light">
-    </a>
+    <a href="#hero" class="nav-logo"><img src="logo-nav.svg" alt="Studio DaDi" class="nav-logo-dark"><img src="logo-nav.svg" alt="Studio DaDi" class="nav-logo-light"></a>
     <ul class="nav-links">
       <li><a href="#about">O nas</a></li>
       <li><a href="#services">Usługi</a></li>
@@ -37,411 +22,153 @@
       <li><a href="#facebook">Facebook</a></li>
       <li><a href="#contact" class="nav-cta">Kontakt</a></li>
     </ul>
-    <div class="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+    <div class="hamburger"><span></span><span></span><span></span></div>
   </nav>
 
-  <!-- Mobile Menu -->
-  <div class="mobile-menu">
-    <ul class="mobile-menu-links">
-      <li><a href="#hero">Strona główna</a></li>
-      <li><a href="#about">O nas</a></li>
-      <li><a href="#services">Usługi</a></li>
-      <li><a href="#gallery">Galeria</a></li>
-      <li><a href="#testimonials">Opinie</a></li>
-      <li><a href="#facebook">Facebook</a></li>
-      <li><a href="#contact">Kontakt</a></li>
-    </ul>
-  </div>
+  <div class="mobile-menu"><ul class="mobile-menu-links">
+    <li><a href="#hero">Strona główna</a></li><li><a href="#about">O nas</a></li><li><a href="#services">Usługi</a></li>
+    <li><a href="#gallery">Galeria</a></li><li><a href="#testimonials">Opinie</a></li><li><a href="#facebook">Facebook</a></li><li><a href="#contact">Kontakt</a></li>
+  </ul></div>
 
-  <!-- Hero Section -->
+  <!-- ===== HERO - LIGHT ELEGANT ===== -->
   <section class="hero" id="hero">
     <div class="hero-bg"></div>
     <div class="hero-texture"></div>
     <div class="particles"></div>
-
-    <!-- Gold corner accents -->
     <div class="hero-corner hero-corner-tl"></div>
     <div class="hero-corner hero-corner-tr"></div>
     <div class="hero-corner hero-corner-bl"></div>
     <div class="hero-corner hero-corner-br"></div>
-
-    <!-- Vertical side text -->
     <div class="hero-side-text hero-side-text-left">Imperium Piękna</div>
     <div class="hero-side-text hero-side-text-right">Studio DaDi · Rydułtowy</div>
-
-    <!-- Vertical decorative lines -->
     <div class="hero-side-line hero-side-line-left"></div>
     <div class="hero-side-line hero-side-line-right"></div>
 
-    <!-- Side mini thumbnails - left -->
-    <div class="hero-thumb-col hero-thumb-col-left">
-      <div class="hero-thumb"><img src="img-rzesy.png" alt="Rzęsy"></div>
-      <div class="hero-thumb"><img src="img-brwi.png" alt="Brwi"></div>
-    </div>
-
-    <!-- Side mini thumbnails - right -->
-    <div class="hero-thumb-col hero-thumb-col-right">
-      <div class="hero-thumb"><img src="img-paznokcie.png" alt="Paznokcie"></div>
-      <div class="hero-thumb"><img src="img-rzesy.png" alt="Rzęsy"></div>
-    </div>
-
-    <!-- Center content -->
     <div class="hero-content">
-      <div class="hero-logo">
-        <img src="logo-white.svg" alt="Studio DaDi - Imperium Piękna">
-      </div>
+      <div class="hero-logo"><img src="logo.svg" alt="Studio DaDi - Imperium Piękna"></div>
       <div class="hero-divider"></div>
       <div class="hero-services-tags">
-        <span>Paznokcie</span>
-        <span class="tag-dot">◆</span>
-        <span>Rzęsy</span>
-        <span class="tag-dot">◆</span>
-        <span>Brwi</span>
-        <span class="tag-dot">◆</span>
+        <span>Paznokcie</span><span class="tag-dot">◆</span>
+        <span>Rzęsy</span><span class="tag-dot">◆</span>
+        <span>Brwi</span><span class="tag-dot">◆</span>
         <span>Pedicure</span>
       </div>
       <a href="#services" class="hero-btn">Poznaj nasze usługi</a>
     </div>
 
+    <!-- Photo strip at bottom -->
+    <div class="hero-photos">
+      <div class="hero-photo"><img src="img-rzesy.png" alt="Lifting rzęs"><div class="hero-photo-label">Lifting rzęs</div></div>
+      <div class="hero-photo-divider"></div>
+      <div class="hero-photo"><img src="img-brwi.png" alt="Laminacja brwi"><div class="hero-photo-label">Laminacja brwi</div></div>
+      <div class="hero-photo-divider"></div>
+      <div class="hero-photo"><img src="img-paznokcie.png" alt="Stylizacja paznokci"><div class="hero-photo-label">Stylizacja paznokci</div></div>
+    </div>
+
     <div class="scroll-indicator">
-      <div class="scroll-arrow">
-        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="5" y1="12" x2="19" y2="12"/>
-          <polyline points="12 5 19 12 12 19"/>
-        </svg>
-      </div>
+      <div class="scroll-arrow"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
       <span>Przewiń</span>
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- About -->
   <section class="about section" id="about">
     <div class="about-grid">
       <div class="about-image-wrapper reveal">
         <div class="about-image">
-          <!-- Placeholder for owner photo -->
           <div class="about-image-placeholder">
-            <div class="placeholder-icon">
-              <svg viewBox="0 0 80 80" fill="none" stroke="#c9a96e" stroke-width="1">
-                <circle cx="40" cy="28" r="14"/>
-                <path d="M12,72 C12,52 68,52 68,72"/>
-                <rect x="2" y="2" width="76" height="76" rx="4"/>
-              </svg>
-            </div>
+            <div class="placeholder-icon"><svg viewBox="0 0 80 80" fill="none" stroke="#c9a96e" stroke-width="1"><circle cx="40" cy="28" r="14"/><path d="M12,72 C12,52 68,52 68,72"/><rect x="2" y="2" width="76" height="76" rx="4"/></svg></div>
             <p class="placeholder-text">Twoje zdjęcie tutaj</p>
             <span class="placeholder-hint">Dodaj zdjęcie właścicielki</span>
           </div>
         </div>
-        <div class="about-badge">
-          <div class="about-badge-content">
-            <div class="about-badge-number">4.8</div>
-            <div class="about-badge-text">★ Google</div>
-          </div>
-        </div>
+        <div class="about-badge"><div class="about-badge-content"><div class="about-badge-number">4.8</div><div class="about-badge-text">★ Google</div></div></div>
       </div>
       <div class="about-text-content reveal reveal-delay-2">
         <div class="about-text-label">O nas</div>
-        <h2 class="about-text-title">
-          Piękno to nasza
-          <span class="script-font">pasja</span>
-        </h2>
+        <h2 class="about-text-title">Piękno to nasza <span class="script-font">pasja</span></h2>
         <div class="about-text-divider"></div>
-        <p class="about-text-desc">
-          Witaj w Studio DaDi — Imperium Piękna! Jesteśmy salonem kosmetycznym w Rydułtowach, 
-          w którym dbamy o każdy detal Twojego piękna. Oferujemy profesjonalne usługi w przyjaznej 
-          i relaksującej atmosferze.
-        </p>
-        <p class="about-text-desc">
-          Korzystamy z najwyższej jakości produktów i najnowszych technik, aby zapewnić 
-          Ci najlepsze rezultaty. Z nami piękniej!
-        </p>
+        <p class="about-text-desc">Witaj w Studio DaDi — Imperium Piękna! Jesteśmy salonem kosmetycznym w Rydułtowach, w którym dbamy o każdy detal Twojego piękna. Oferujemy profesjonalne usługi w przyjaznej i relaksującej atmosferze.</p>
+        <p class="about-text-desc">Korzystamy z najwyższej jakości produktów i najnowszych technik, aby zapewnić Ci najlepsze rezultaty. Z nami piękniej!</p>
         <div class="about-stats">
-          <div class="about-stat">
-            <div class="about-stat-number"><span class="counter" data-target="47" data-suffix="+">0</span></div>
-            <div class="about-stat-text">Opinii Google</div>
-          </div>
-          <div class="about-stat">
-            <div class="about-stat-number"><span class="counter" data-target="4" data-suffix=".8★">0</span></div>
-            <div class="about-stat-text">Ocena</div>
-          </div>
-          <div class="about-stat">
-            <div class="about-stat-number"><span class="counter" data-target="5" data-suffix="">0</span></div>
-            <div class="about-stat-text">Specjalizacji</div>
-          </div>
+          <div class="about-stat"><div class="about-stat-number"><span class="counter" data-target="47" data-suffix="+">0</span></div><div class="about-stat-text">Opinii Google</div></div>
+          <div class="about-stat"><div class="about-stat-number"><span class="counter" data-target="4" data-suffix=".8★">0</span></div><div class="about-stat-text">Ocena</div></div>
+          <div class="about-stat"><div class="about-stat-number"><span class="counter" data-target="5" data-suffix="">0</span></div><div class="about-stat-text">Specjalizacji</div></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Services Section -->
+  <!-- Services -->
   <section class="services section" id="services">
-    <div class="section-header reveal">
-      <span class="section-label">Co oferujemy</span>
-      <h2 class="section-title">
-        Nasze
-        <span class="section-title-script">usługi</span>
-      </h2>
-      <div class="section-divider"></div>
-      <p class="section-desc">Szeroki wachlarz profesjonalnych zabiegów kosmetycznych, dopasowanych do Twoich potrzeb</p>
-    </div>
-
+    <div class="section-header reveal"><span class="section-label">Co oferujemy</span><h2 class="section-title">Nasze <span class="section-title-script">usługi</span></h2><div class="section-divider"></div><p class="section-desc">Szeroki wachlarz profesjonalnych zabiegów kosmetycznych, dopasowanych do Twoich potrzeb</p></div>
     <div class="services-grid">
-      <div class="service-card reveal reveal-delay-1">
-        <div class="service-number">01</div>
-        <div class="service-icon">
-          <svg viewBox="0 0 40 40"><path d="M20,5 C25,5 30,10 30,17 C30,24 25,30 20,35 C15,30 10,24 10,17 C10,10 15,5 20,5Z"/><circle cx="20" cy="17" r="4"/><path d="M16,17 L24,17 M20,13 L20,21"/></svg>
-        </div>
-        <h3 class="service-title">Stylizacja Paznokci</h3>
-        <p class="service-desc">Piękne i trwałe paznokcie — manicure hybrydowy, żelowy oraz zdobienia, które podkreślą Twój styl.</p>
-      </div>
-
-      <div class="service-card reveal reveal-delay-2">
-        <div class="service-number">02</div>
-        <div class="service-icon">
-          <svg viewBox="0 0 40 40"><rect x="8" y="12" width="24" height="18" rx="3"/><path d="M12,12 L12,8 C12,6 16,4 20,4 C24,4 28,6 28,8 L28,12"/><circle cx="20" cy="21" r="3"/><line x1="20" y1="24" x2="20" y2="27"/></svg>
-        </div>
-        <h3 class="service-title">Terapia Łożyska</h3>
-        <p class="service-desc">Profesjonalna terapia łożyska paznokcia i rekonstrukcja — przywracamy zdrowie i piękny wygląd paznokci.</p>
-      </div>
-
-      <div class="service-card reveal reveal-delay-3">
-        <div class="service-number">03</div>
-        <div class="service-icon">
-          <svg viewBox="0 0 40 40"><path d="M10,30 C10,20 15,12 20,8"/><path d="M30,30 C30,20 25,12 20,8"/><circle cx="20" cy="7" r="3"/><line x1="14" y1="22" x2="26" y2="22"/><path d="M8,32 L32,32"/></svg>
-        </div>
-        <h3 class="service-title">Pedicure Podologiczny</h3>
-        <p class="service-desc">Specjalistyczny pedicure podologiczny — zadbaj o zdrowie i komfort swoich stóp w rękach eksperta.</p>
-      </div>
-
-      <div class="service-card reveal reveal-delay-1">
-        <div class="service-number">04</div>
-        <div class="service-icon">
-          <svg viewBox="0 0 40 40"><path d="M8,20 Q15,8 25,12 Q35,16 32,28"/><path d="M12,22 Q18,14 25,16"/><circle cx="30" cy="12" r="2"/><path d="M28,10 L32,6"/><path d="M33,10 L36,8"/></svg>
-        </div>
-        <h3 class="service-title">Lifting Rzęs</h3>
-        <p class="service-desc">Lifting i laminacja rzęs — naturalnie podkręcone i pięknie wyeksponowane rzęsy bez sztucznych przedłużeń.</p>
-      </div>
-
-      <div class="service-card reveal reveal-delay-2">
-        <div class="service-number">05</div>
-        <div class="service-icon">
-          <svg viewBox="0 0 40 40"><path d="M8,22 Q12,14 20,14 Q28,14 32,22" stroke-linecap="round"/><path d="M10,20 Q15,16 20,16 Q25,16 30,20"/><line x1="14" y1="14" x2="12" y2="10"/><line x1="20" y1="13" x2="20" y2="8"/><line x1="26" y1="14" x2="28" y2="10"/><path d="M8,24 Q20,30 32,24"/></svg>
-        </div>
-        <h3 class="service-title">Laminacja Brwi</h3>
-        <p class="service-desc">Profesjonalna laminacja brwi — idealny kształt i piękny wygląd brwi na co dzień, bez codziennego makijażu.</p>
-      </div>
-
-      <div class="service-card reveal reveal-delay-3">
-        <div class="service-number">06</div>
-        <div class="service-icon">
-          <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="12"/><circle cx="20" cy="20" r="6"/><line x1="20" y1="2" x2="20" y2="8"/><line x1="20" y1="32" x2="20" y2="38"/><line x1="2" y1="20" x2="8" y2="20"/><line x1="32" y1="20" x2="38" y2="20"/></svg>
-        </div>
-        <h3 class="service-title">Zabiegi Specjalne</h3>
-        <p class="service-desc">Indywidualnie dobrane zabiegi kosmetyczne — skonsultuj swoje potrzeby i pozwól nam zadbać o Twoje piękno.</p>
-      </div>
+      <div class="service-card reveal reveal-delay-1"><div class="service-number">01</div><div class="service-icon"><svg viewBox="0 0 40 40"><path d="M20,5 C25,5 30,10 30,17 C30,24 25,30 20,35 C15,30 10,24 10,17 C10,10 15,5 20,5Z"/><circle cx="20" cy="17" r="4"/><path d="M16,17 L24,17 M20,13 L20,21"/></svg></div><h3 class="service-title">Stylizacja Paznokci</h3><p class="service-desc">Piękne i trwałe paznokcie — manicure hybrydowy, żelowy oraz zdobienia, które podkreślą Twój styl.</p></div>
+      <div class="service-card reveal reveal-delay-2"><div class="service-number">02</div><div class="service-icon"><svg viewBox="0 0 40 40"><rect x="8" y="12" width="24" height="18" rx="3"/><path d="M12,12 L12,8 C12,6 16,4 20,4 C24,4 28,6 28,8 L28,12"/><circle cx="20" cy="21" r="3"/><line x1="20" y1="24" x2="20" y2="27"/></svg></div><h3 class="service-title">Terapia Łożyska</h3><p class="service-desc">Profesjonalna terapia łożyska paznokcia i rekonstrukcja — przywracamy zdrowie i piękny wygląd paznokci.</p></div>
+      <div class="service-card reveal reveal-delay-3"><div class="service-number">03</div><div class="service-icon"><svg viewBox="0 0 40 40"><path d="M10,30 C10,20 15,12 20,8"/><path d="M30,30 C30,20 25,12 20,8"/><circle cx="20" cy="7" r="3"/><line x1="14" y1="22" x2="26" y2="22"/><path d="M8,32 L32,32"/></svg></div><h3 class="service-title">Pedicure Podologiczny</h3><p class="service-desc">Specjalistyczny pedicure podologiczny — zadbaj o zdrowie i komfort swoich stóp w rękach eksperta.</p></div>
+      <div class="service-card reveal reveal-delay-1"><div class="service-number">04</div><div class="service-icon"><svg viewBox="0 0 40 40"><path d="M8,20 Q15,8 25,12 Q35,16 32,28"/><path d="M12,22 Q18,14 25,16"/><circle cx="30" cy="12" r="2"/><path d="M28,10 L32,6"/><path d="M33,10 L36,8"/></svg></div><h3 class="service-title">Lifting Rzęs</h3><p class="service-desc">Lifting i laminacja rzęs — naturalnie podkręcone i pięknie wyeksponowane rzęsy bez sztucznych przedłużeń.</p></div>
+      <div class="service-card reveal reveal-delay-2"><div class="service-number">05</div><div class="service-icon"><svg viewBox="0 0 40 40"><path d="M8,22 Q12,14 20,14 Q28,14 32,22" stroke-linecap="round"/><path d="M10,20 Q15,16 20,16 Q25,16 30,20"/><line x1="14" y1="14" x2="12" y2="10"/><line x1="20" y1="13" x2="20" y2="8"/><line x1="26" y1="14" x2="28" y2="10"/><path d="M8,24 Q20,30 32,24"/></svg></div><h3 class="service-title">Laminacja Brwi</h3><p class="service-desc">Profesjonalna laminacja brwi — idealny kształt i piękny wygląd brwi na co dzień, bez codziennego makijażu.</p></div>
+      <div class="service-card reveal reveal-delay-3"><div class="service-number">06</div><div class="service-icon"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="12"/><circle cx="20" cy="20" r="6"/><line x1="20" y1="2" x2="20" y2="8"/><line x1="20" y1="32" x2="20" y2="38"/><line x1="2" y1="20" x2="8" y2="20"/><line x1="32" y1="20" x2="38" y2="20"/></svg></div><h3 class="service-title">Zabiegi Specjalne</h3><p class="service-desc">Indywidualnie dobrane zabiegi kosmetyczne — skonsultuj swoje potrzeby i pozwól nam zadbać o Twoje piękno.</p></div>
     </div>
   </section>
 
-  <!-- Gallery Section -->
+  <!-- Gallery -->
   <section class="gallery section" id="gallery">
-    <div class="section-header reveal">
-      <span class="section-label">Nasze realizacje</span>
-      <h2 class="section-title">
-        Galeria
-        <span class="section-title-script">inspiracji</span>
-      </h2>
-      <div class="section-divider"></div>
-      <p class="section-desc">Zobacz efekty naszej pracy i zainspiruj się do własnej metamorfozy</p>
-    </div>
-
+    <div class="section-header reveal"><span class="section-label">Nasze realizacje</span><h2 class="section-title">Galeria <span class="section-title-script">inspiracji</span></h2><div class="section-divider"></div><p class="section-desc">Zobacz efekty naszej pracy i zainspiruj się do własnej metamorfozy</p></div>
     <div class="gallery-grid">
-      <div class="gallery-item reveal">
-        <img src="img-rzesy.png" alt="Lifting rzęs - efekt przed i po">
-        <div class="gallery-overlay">
-          <div class="gallery-overlay-content">
-            <div class="gallery-overlay-text">Lifting rzęs</div>
-          </div>
-        </div>
-      </div>
-      <div class="gallery-item reveal reveal-delay-1">
-        <img src="img-brwi.png" alt="Laminacja brwi - efekt przed i po">
-        <div class="gallery-overlay">
-          <div class="gallery-overlay-content">
-            <div class="gallery-overlay-text">Laminacja brwi</div>
-          </div>
-        </div>
-      </div>
-      <div class="gallery-item reveal reveal-delay-2">
-        <img src="img-paznokcie.png" alt="Stylizacja paznokci">
-        <div class="gallery-overlay">
-          <div class="gallery-overlay-content">
-            <div class="gallery-overlay-text">Stylizacja paznokci</div>
-          </div>
-        </div>
-      </div>
+      <div class="gallery-item reveal"><img src="img-rzesy.png" alt="Lifting rzęs"><div class="gallery-overlay"><div class="gallery-overlay-content"><div class="gallery-overlay-text">Lifting rzęs</div></div></div></div>
+      <div class="gallery-item reveal reveal-delay-1"><img src="img-brwi.png" alt="Laminacja brwi"><div class="gallery-overlay"><div class="gallery-overlay-content"><div class="gallery-overlay-text">Laminacja brwi</div></div></div></div>
+      <div class="gallery-item reveal reveal-delay-2"><img src="img-paznokcie.png" alt="Stylizacja paznokci"><div class="gallery-overlay"><div class="gallery-overlay-content"><div class="gallery-overlay-text">Stylizacja paznokci</div></div></div></div>
     </div>
   </section>
 
-  <!-- Testimonials Section -->
+  <!-- Testimonials -->
   <section class="testimonials section" id="testimonials">
-    <div class="section-header reveal">
-      <span class="section-label">Opinie klientek</span>
-      <h2 class="section-title">
-        Co mówią
-        <span class="section-title-script">nasze klientki</span>
-      </h2>
-      <div class="section-divider"></div>
-    </div>
-
-    <div class="testimonial-slider reveal">
-      <div class="testimonial-track">
-        <div class="testimonial-card">
-          <div class="testimonial-quote">"</div>
-          <p class="testimonial-text">Fantastyczne miejsce! Profesjonalna obsługa, niesamowite efekty. Moje paznokcie nigdy nie wyglądały lepiej. Gorąco polecam!</p>
-          <div class="testimonial-rating">★ ★ ★ ★ ★</div>
-          <div class="testimonial-author">— Zadowolona Klientka</div>
-        </div>
-        <div class="testimonial-card">
-          <div class="testimonial-quote">"</div>
-          <p class="testimonial-text">Lifting rzęs wykonany perfekcyjnie. Efekt naturalny i piękny. Atmosfera w salonie bardzo przyjemna i relaksująca.</p>
-          <div class="testimonial-rating">★ ★ ★ ★ ★</div>
-          <div class="testimonial-author">— Regularna Klientka</div>
-        </div>
-        <div class="testimonial-card">
-          <div class="testimonial-quote">"</div>
-          <p class="testimonial-text">Najlepszy salon w okolicy! Pedicure podologiczny na najwyższym poziomie. Polecam z całego serca!</p>
-          <div class="testimonial-rating">★ ★ ★ ★ ★</div>
-          <div class="testimonial-author">— Wierna Klientka</div>
-        </div>
-      </div>
-      <div class="testimonial-dots">
-        <div class="testimonial-dot active"></div>
-        <div class="testimonial-dot"></div>
-        <div class="testimonial-dot"></div>
-      </div>
-    </div>
+    <div class="section-header reveal"><span class="section-label">Opinie klientek</span><h2 class="section-title">Co mówią <span class="section-title-script">nasze klientki</span></h2><div class="section-divider"></div></div>
+    <div class="testimonial-slider reveal"><div class="testimonial-track">
+      <div class="testimonial-card"><div class="testimonial-quote">"</div><p class="testimonial-text">Fantastyczne miejsce! Profesjonalna obsługa, niesamowite efekty. Moje paznokcie nigdy nie wyglądały lepiej. Gorąco polecam!</p><div class="testimonial-rating">★ ★ ★ ★ ★</div><div class="testimonial-author">— Zadowolona Klientka</div></div>
+      <div class="testimonial-card"><div class="testimonial-quote">"</div><p class="testimonial-text">Lifting rzęs wykonany perfekcyjnie. Efekt naturalny i piękny. Atmosfera w salonie bardzo przyjemna i relaksująca.</p><div class="testimonial-rating">★ ★ ★ ★ ★</div><div class="testimonial-author">— Regularna Klientka</div></div>
+      <div class="testimonial-card"><div class="testimonial-quote">"</div><p class="testimonial-text">Najlepszy salon w okolicy! Pedicure podologiczny na najwyższym poziomie. Polecam z całego serca!</p><div class="testimonial-rating">★ ★ ★ ★ ★</div><div class="testimonial-author">— Wierna Klientka</div></div>
+    </div><div class="testimonial-dots"><div class="testimonial-dot active"></div><div class="testimonial-dot"></div><div class="testimonial-dot"></div></div></div>
   </section>
 
-  <!-- Facebook Section -->
+  <!-- Facebook -->
   <section class="facebook-section section" id="facebook">
-    <div class="section-header reveal">
-      <span class="section-label">Śledź nas</span>
-      <h2 class="section-title">
-        Jesteśmy na
-        <span class="section-title-script">Facebooku</span>
-      </h2>
-      <div class="section-divider"></div>
-    </div>
-
+    <div class="section-header reveal"><span class="section-label">Śledź nas</span><h2 class="section-title">Jesteśmy na <span class="section-title-script">Facebooku</span></h2><div class="section-divider"></div></div>
     <div class="facebook-grid">
-      <div class="fb-page-embed reveal">
-        <div class="fb-page" 
-          data-href="https://www.facebook.com/xstrefa.pieknax" 
-          data-tabs="timeline" 
-          data-width="400" 
-          data-height="500" 
-          data-small-header="false" 
-          data-adapt-container-width="true" 
-          data-hide-cover="false" 
-          data-show-facepile="true">
-          <blockquote cite="https://www.facebook.com/xstrefa.pieknax" class="fb-xfbml-parse-ignore">
-            <a href="https://www.facebook.com/xstrefa.pieknax">Imperium Piękna DaDi</a>
-          </blockquote>
-        </div>
-      </div>
-
+      <div class="fb-page-embed reveal"><div class="fb-page" data-href="https://www.facebook.com/xstrefa.pieknax" data-tabs="timeline" data-width="400" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/xstrefa.pieknax" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/xstrefa.pieknax">Imperium Piękna DaDi</a></blockquote></div></div>
       <div class="fb-info reveal reveal-delay-2">
-        <h3 class="fb-info-title">
-          Bądź na bieżąco
-          <span class="script-font">z naszymi realizacjami</span>
-        </h3>
+        <h3 class="fb-info-title">Bądź na bieżąco <span class="script-font">z naszymi realizacjami</span></h3>
         <div class="fb-info-divider"></div>
-        <p class="fb-info-desc">
-          Obserwuj nasz profil na Facebooku, aby zobaczyć najnowsze realizacje, 
-          inspiracje i promocje. Regularnie publikujemy efekty naszej pracy!
-        </p>
-        <ul class="fb-features">
-          <li>Stylizacja paznokci</li>
-          <li>Terapia łożyska i rekonstrukcja paznokci</li>
-          <li>Pedicure podologiczny</li>
-          <li>Lifting i laminacja rzęs</li>
-          <li>Laminacja brwi</li>
-        </ul>
-        <a href="https://www.facebook.com/xstrefa.pieknax" target="_blank" rel="noopener" class="fb-follow-btn">
-          <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" fill="white"/></svg>
-          Obserwuj na Facebooku
-        </a>
+        <p class="fb-info-desc">Obserwuj nasz profil na Facebooku, aby zobaczyć najnowsze realizacje, inspiracje i promocje.</p>
+        <ul class="fb-features"><li>Stylizacja paznokci</li><li>Terapia łożyska i rekonstrukcja paznokci</li><li>Pedicure podologiczny</li><li>Lifting i laminacja rzęs</li><li>Laminacja brwi</li></ul>
+        <a href="https://www.facebook.com/xstrefa.pieknax" target="_blank" rel="noopener" class="fb-follow-btn"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" fill="white"/></svg>Obserwuj na Facebooku</a>
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Contact -->
   <section class="contact section" id="contact">
-    <div class="section-header reveal">
-      <span class="section-label">Zapraszamy</span>
-      <h2 class="section-title">
-        Kontakt &
-        <span class="section-title-script">godziny otwarcia</span>
-      </h2>
-      <div class="section-divider"></div>
-    </div>
-
+    <div class="section-header reveal"><span class="section-label">Zapraszamy</span><h2 class="section-title">Kontakt & <span class="section-title-script">godziny otwarcia</span></h2><div class="section-divider"></div></div>
     <div class="contact-grid">
-      <div class="contact-card reveal reveal-delay-1">
-        <h3 class="contact-card-title">Godziny otwarcia</h3>
-        <ul class="hours-list">
-          <li class="hours-item" data-day="monday"><span class="hours-day">Poniedziałek</span><span class="hours-time">8:00 — 19:00</span></li>
-          <li class="hours-item" data-day="tuesday"><span class="hours-day">Wtorek</span><span class="hours-time">8:00 — 19:00</span></li>
-          <li class="hours-item" data-day="wednesday"><span class="hours-day">Środa</span><span class="hours-time">8:00 — 19:00</span></li>
-          <li class="hours-item" data-day="thursday"><span class="hours-day">Czwartek</span><span class="hours-time">8:00 — 19:00</span></li>
-          <li class="hours-item" data-day="friday"><span class="hours-day">Piątek</span><span class="hours-time">8:00 — 19:00</span></li>
-          <li class="hours-item" data-day="saturday"><span class="hours-day">Sobota</span><span class="hours-time">8:00 — 12:00</span></li>
-          <li class="hours-item" data-day="sunday"><span class="hours-day">Niedziela</span><span class="hours-time closed">Zamknięte</span></li>
-        </ul>
-      </div>
-
-      <div class="contact-card reveal reveal-delay-2">
-        <h3 class="contact-card-title">Dane kontaktowe</h3>
-        <div class="contact-info-item">
-          <div class="contact-info-icon">
-            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
-          </div>
-          <div class="contact-info-text">
-            <div class="contact-info-label">Telefon</div>
-            <div class="contact-info-value"><a href="tel:+48792751206">792 751 206</a></div>
-          </div>
-        </div>
-        <div class="contact-info-item">
-          <div class="contact-info-icon">
-            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          </div>
-          <div class="contact-info-text">
-            <div class="contact-info-label">Adres</div>
-            <div class="contact-info-value">Ofiar Terroru 2D<br>44-280 Rydułtowy</div>
-          </div>
-        </div>
-        <div class="contact-info-item">
-          <div class="contact-info-icon">
-            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
-          </div>
-          <div class="contact-info-text">
-            <div class="contact-info-label">Facebook</div>
-            <div class="contact-info-value"><a href="https://www.facebook.com/xstrefa.pieknax" target="_blank" rel="noopener">Imperium Piękna DaDi</a></div>
-          </div>
-        </div>
+      <div class="contact-card reveal reveal-delay-1"><h3 class="contact-card-title">Godziny otwarcia</h3><ul class="hours-list">
+        <li class="hours-item" data-day="monday"><span class="hours-day">Poniedziałek</span><span class="hours-time">8:00 — 19:00</span></li>
+        <li class="hours-item" data-day="tuesday"><span class="hours-day">Wtorek</span><span class="hours-time">8:00 — 19:00</span></li>
+        <li class="hours-item" data-day="wednesday"><span class="hours-day">Środa</span><span class="hours-time">8:00 — 19:00</span></li>
+        <li class="hours-item" data-day="thursday"><span class="hours-day">Czwartek</span><span class="hours-time">8:00 — 19:00</span></li>
+        <li class="hours-item" data-day="friday"><span class="hours-day">Piątek</span><span class="hours-time">8:00 — 19:00</span></li>
+        <li class="hours-item" data-day="saturday"><span class="hours-day">Sobota</span><span class="hours-time">8:00 — 12:00</span></li>
+        <li class="hours-item" data-day="sunday"><span class="hours-day">Niedziela</span><span class="hours-time closed">Zamknięte</span></li>
+      </ul></div>
+      <div class="contact-card reveal reveal-delay-2"><h3 class="contact-card-title">Dane kontaktowe</h3>
+        <div class="contact-info-item"><div class="contact-info-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></div><div class="contact-info-text"><div class="contact-info-label">Telefon</div><div class="contact-info-value"><a href="tel:+48792751206">792 751 206</a></div></div></div>
+        <div class="contact-info-item"><div class="contact-info-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div class="contact-info-text"><div class="contact-info-label">Adres</div><div class="contact-info-value">Ofiar Terroru 2D<br>44-280 Rydułtowy</div></div></div>
+        <div class="contact-info-item"><div class="contact-info-icon"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></div><div class="contact-info-text"><div class="contact-info-label">Facebook</div><div class="contact-info-value"><a href="https://www.facebook.com/xstrefa.pieknax" target="_blank" rel="noopener">Imperium Piękna DaDi</a></div></div></div>
         <a href="tel:+48792751206" class="contact-btn">Umów wizytę — Zadzwoń teraz</a>
       </div>
-
-      <div class="contact-card reveal reveal-delay-3">
-        <h3 class="contact-card-title">Znajdź nas</h3>
-        <div class="map-container">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.0!2d18.38!3d50.06!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDAzJzM2LjAiTiAxOMKwMjInNDguMCJF!5e0!3m2!1spl!2spl!4v1700000000000!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa - Studio DaDi"></iframe>
-        </div>
-        <a href="https://www.google.com/maps/search/Ofiar+Terroru+2D+Rydultowy" target="_blank" rel="noopener" class="contact-btn" style="margin-top:15px;">Nawiguj do salonu</a>
+      <div class="contact-card reveal reveal-delay-3"><h3 class="contact-card-title">Znajdź nas</h3>
+        <div class="map-container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.0!2d18.38!3d50.06!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDAzJzM2LjAiTiAxOMKwMjInNDguMCJF!5e0!3m2!1spl!2spl!4v1700000000000!5m2!1spl!2spl" allowfullscreen="" loading="lazy" title="Mapa - Studio DaDi"></iframe></div>
+        <a href="https://www.google.com/maps/search/Ofiar+Terroru+2D+Rydultowy" target="_blank" rel="noopener" class="contact-btn" style="margin-top:15px">Nawiguj do salonu</a>
       </div>
     </div>
   </section>
@@ -449,49 +176,16 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-top">
-      <div class="footer-brand">
-        <div class="footer-logo-img">
-          <img src="logo-white.svg" alt="Studio DaDi" style="height:80px;">
-        </div>
-        <div class="footer-social" style="margin-top:20px;">
-          <a href="https://www.facebook.com/xstrefa.pieknax" target="_blank" rel="noopener" aria-label="Facebook">
-            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
-          </a>
-          <a href="tel:+48792751206" aria-label="Telefon">
-            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
-          </a>
-        </div>
+      <div class="footer-brand"><div class="footer-logo-img"><img src="logo-white.svg" alt="Studio DaDi" style="height:80px"></div>
+        <div class="footer-social"><a href="https://www.facebook.com/xstrefa.pieknax" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a><a href="tel:+48792751206" aria-label="Telefon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></a></div>
       </div>
       <div class="footer-links-group">
-        <div>
-          <div class="footer-col-title">Nawigacja</div>
-          <ul class="footer-links">
-            <li><a href="#hero">Strona główna</a></li>
-            <li><a href="#about">O nas</a></li>
-            <li><a href="#services">Usługi</a></li>
-            <li><a href="#gallery">Galeria</a></li>
-          </ul>
-        </div>
-        <div>
-          <div class="footer-col-title">Usługi</div>
-          <ul class="footer-links">
-            <li><a href="#services">Stylizacja paznokci</a></li>
-            <li><a href="#services">Pedicure podologiczny</a></li>
-            <li><a href="#services">Lifting rzęs</a></li>
-            <li><a href="#services">Laminacja brwi</a></li>
-          </ul>
-        </div>
+        <div><div class="footer-col-title">Nawigacja</div><ul class="footer-links"><li><a href="#hero">Strona główna</a></li><li><a href="#about">O nas</a></li><li><a href="#services">Usługi</a></li><li><a href="#gallery">Galeria</a></li></ul></div>
+        <div><div class="footer-col-title">Usługi</div><ul class="footer-links"><li><a href="#services">Stylizacja paznokci</a></li><li><a href="#services">Pedicure podologiczny</a></li><li><a href="#services">Lifting rzęs</a></li><li><a href="#services">Laminacja brwi</a></li></ul></div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <div class="footer-copyright">© 2025 Studio DaDi — Imperium Piękna. Wszystkie prawa zastrzeżone.</div>
-      <button class="footer-back-top">
-        Powrót do góry
-        <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
-      </button>
-    </div>
+    <div class="footer-bottom"><div class="footer-copyright">© 2025 Studio DaDi — Imperium Piękna. Wszystkie prawa zastrzeżone.</div><button class="footer-back-top">Powrót do góry <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg></button></div>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
