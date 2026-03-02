@@ -59,18 +59,18 @@ img{max-width:100%;height:auto}
 .particle{position:absolute;width:2px;height:2px;background:var(--gold);border-radius:50%;opacity:0;animation:particleFloat 12s infinite}
 @keyframes particleFloat{0%{opacity:0;transform:translateY(60vh) scale(0)}30%{opacity:.15}70%{opacity:.08}100%{opacity:0;transform:translateY(-10vh) scale(1)}}
 
-/* Beauty illustrations - PNG images */
-.hero-illust{position:absolute;top:50%;transform:translateY(-50%);width:340px;z-index:1;pointer-events:none;opacity:0;animation:illustFade 1.8s ease .8s forwards}
-.hero-illust-left{left:20px}
-.hero-illust-right{right:20px}
+/* Beauty illustrations - transparent PNGs */
+.hero-illust{position:absolute;top:50%;transform:translateY(-50%);width:420px;z-index:1;pointer-events:none;opacity:0;animation:illustFade 2s ease .6s forwards}
+.hero-illust-left{left:-20px}
+.hero-illust-right{right:-20px}
 .hero-illust img{width:100%;height:auto;display:block}
-@keyframes illustFade{to{opacity:.85}}
+@keyframes illustFade{to{opacity:.7}}
 
-/* Section decorative images */
-.section-decor{position:absolute;pointer-events:none;opacity:.12;z-index:0}
+/* Section decorative images - subtle background accents */
+.section-decor{position:absolute;pointer-events:none;opacity:.1;z-index:0}
 .section-decor img{width:100%;height:auto}
-.section-decor-right{right:-40px;top:50%;transform:translateY(-50%);width:280px}
-.section-decor-left{left:-40px;top:50%;transform:translateY(-50%);width:280px}
+.section-decor-right{right:-60px;top:50%;transform:translateY(-50%);width:320px}
+.section-decor-left{left:-60px;top:50%;transform:translateY(-50%);width:320px}
 .section{position:relative;overflow:hidden}
 
 /* Center content */
@@ -235,10 +235,11 @@ img{max-width:100%;height:auto}
 
 /* Responsive */
 @media(max-width:1400px){
-  .hero-illust{width:280px}
+  .hero-illust{width:340px}
 }
 @media(max-width:1200px){
-  .hero-illust{width:220px}.hero-illust-left{left:10px}.hero-illust-right{right:10px}
+  .hero-illust{width:260px}.hero-illust-left{left:-10px}.hero-illust-right{right:-10px}
+  .section-decor{width:220px!important}
 }
 @media(max-width:1024px){
   .section{padding:80px 40px}.navbar{padding:15px 30px}.navbar.scrolled{padding:10px 30px}
