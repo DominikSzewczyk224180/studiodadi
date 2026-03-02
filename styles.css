@@ -60,21 +60,21 @@ img{max-width:100%;height:auto}
 @keyframes particleFloat{0%{opacity:0;transform:translateY(60vh) scale(0)}30%{opacity:.15}70%{opacity:.08}100%{opacity:0;transform:translateY(-10vh) scale(1)}}
 
 /* Beauty illustrations - transparent PNGs */
-.hero-illust{position:absolute;top:50%;transform:translateY(-50%);width:420px;z-index:1;pointer-events:none;opacity:0;animation:illustFade 2s ease .6s forwards}
-.hero-illust-left{left:-20px}
-.hero-illust-right{right:-20px}
+.hero-illust{position:absolute;top:50%;transform:translateY(-50%);width:500px;z-index:1;pointer-events:none;opacity:0;animation:illustFade 2s ease .6s forwards}
+.hero-illust-left{left:-30px}
+.hero-illust-right{right:-30px}
 .hero-illust img{width:100%;height:auto;display:block}
-@keyframes illustFade{to{opacity:.7}}
+@keyframes illustFade{to{opacity:.55}}
 
-/* Section decorative images */
-.section-decor{position:absolute;pointer-events:none;opacity:.08;z-index:0}
+/* Section decorative images - bigger, more visible background elements */
+.section-decor{position:absolute;pointer-events:none;opacity:.18;z-index:0}
 .section-decor img{width:100%;height:auto}
-.section-decor-right{right:-40px;top:50%;transform:translateY(-50%);width:300px}
-.section-decor-left{left:-40px;top:50%;transform:translateY(-50%);width:300px}
-.section-decor-top{top:20px!important;transform:none!important}
-.section-decor-bottom{bottom:20px!important;top:auto!important;transform:none!important}
+.section-decor-right{right:-50px;top:50%;transform:translateY(-50%);width:420px}
+.section-decor-left{left:-50px;top:50%;transform:translateY(-50%);width:420px}
+.section-decor-top{top:-20px!important;transform:none!important}
+.section-decor-bottom{bottom:-20px!important;top:auto!important;transform:none!important}
 /* On dark backgrounds (testimonials) make decor lighter */
-.section-decor-light{opacity:.06;filter:brightness(3)}
+.section-decor-light{opacity:.08;filter:brightness(3)}
 .section{position:relative;overflow:hidden}
 
 /* Center content */
@@ -239,11 +239,11 @@ img{max-width:100%;height:auto}
 
 /* Responsive */
 @media(max-width:1400px){
-  .hero-illust{width:340px}
+  .hero-illust{width:400px}
 }
 @media(max-width:1200px){
-  .hero-illust{width:260px}.hero-illust-left{left:-10px}.hero-illust-right{right:-10px}
-  .section-decor{width:200px!important}
+  .hero-illust{width:320px}.hero-illust-left{left:-20px}.hero-illust-right{right:-20px}
+  .section-decor{width:320px!important}
 }
 @media(max-width:1024px){
   .section{padding:80px 40px}.navbar{padding:15px 30px}.navbar.scrolled{padding:10px 30px}
