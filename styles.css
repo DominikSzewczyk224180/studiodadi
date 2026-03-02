@@ -66,11 +66,15 @@ img{max-width:100%;height:auto}
 .hero-illust img{width:100%;height:auto;display:block}
 @keyframes illustFade{to{opacity:.7}}
 
-/* Section decorative images - subtle background accents */
-.section-decor{position:absolute;pointer-events:none;opacity:.1;z-index:0}
+/* Section decorative images */
+.section-decor{position:absolute;pointer-events:none;opacity:.08;z-index:0}
 .section-decor img{width:100%;height:auto}
-.section-decor-right{right:-60px;top:50%;transform:translateY(-50%);width:320px}
-.section-decor-left{left:-60px;top:50%;transform:translateY(-50%);width:320px}
+.section-decor-right{right:-40px;top:50%;transform:translateY(-50%);width:300px}
+.section-decor-left{left:-40px;top:50%;transform:translateY(-50%);width:300px}
+.section-decor-top{top:20px!important;transform:none!important}
+.section-decor-bottom{bottom:20px!important;top:auto!important;transform:none!important}
+/* On dark backgrounds (testimonials) make decor lighter */
+.section-decor-light{opacity:.06;filter:brightness(3)}
 .section{position:relative;overflow:hidden}
 
 /* Center content */
@@ -239,7 +243,7 @@ img{max-width:100%;height:auto}
 }
 @media(max-width:1200px){
   .hero-illust{width:260px}.hero-illust-left{left:-10px}.hero-illust-right{right:-10px}
-  .section-decor{width:220px!important}
+  .section-decor{width:200px!important}
 }
 @media(max-width:1024px){
   .section{padding:80px 40px}.navbar{padding:15px 30px}.navbar.scrolled{padding:10px 30px}
